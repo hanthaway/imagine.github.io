@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*========================================================
                         Camera
 =========================================================*/
@@ -20,7 +20,7 @@
 .container_box{float: left;height: 480px;position: relative;}
 .content_box{width: 8000px;position: absolute;left: 0;top: 0;padding: 0;height: 480px;}
 .camera_container .prev{width: 38px;height: 38px;position: absolute;background:url(/static/img//mp_09.png) no-repeat;background-position: 0px 0px;top:50%;margin-top: -38px;z-index: 100;left: 30px;display: none;}
-.camera_container .next{width: 38px;height: 38px;position: absolute;background: red;top:50%;margin-top: -38px;z-index: 100;right: 30px;background: url(/static/img//mp_09.png) no-repeat;background-position: -86px 0px;display: none;}
+.camera_container .next{width: 38px;height: 38px;position: absolute;background: red;top:50%;margin-top: -38px;z-index: 100;right: 30px;background: url(/static/img//mp_09.png) no-repeat;background-position: -85px 0px;display: none;}
 .camera_wrap {
   display: none;
   position: absolute;
@@ -172,19 +172,34 @@
 /*================   Custom Layout&Styles   =====================*/
 .camera_caption {
   position: absolute;
-  height: 100%;width:1200px; margin:0 auto;
-  left: 0;top: 0;
+  height: 100%;width:1200px;
+  left: 50%;top: 0;
+  margin-left: -610px;
 }
 
-.camera_caption .bg-secondary {
-  left: 150px;
-  position: absolute;
-  background: rgba(240, 56, 57, 0.8);
-  bottom: 80px;
-   color:#fff;
-  width: 560px;
-   border-radius:10px;
-  padding: 22px 30px 22px 30px;
+@media (min-width: 1200px){
+  .camera_caption .bg-secondary {
+    left: 0px;
+    position: absolute;
+    background: rgba(240, 56, 57, 0.8);
+    bottom: 80px;
+     color:#fff;
+    width: 560px;
+     border-radius:10px;
+    padding: 22px 30px 22px 30px;
+  }
+}
+@media (min-width: 1920px){
+    .camera_caption .bg-secondary {
+     left: 0px;
+     position: absolute;
+     background: rgba(240, 56, 57, 0.8);
+     bottom: 50px;
+     color:#fff;
+    width: 560px;
+     border-radius:10px;
+    padding: 22px 30px 22px 30px;
+  }
 }
 .lt-ie9 .camera_caption .bg-secondary {
   background: none;

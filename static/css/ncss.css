@@ -1,4 +1,4 @@
-.cjwt{  height:446px; min-width:1200px; width:100%;  }
+﻿.cjwt{  height:446px; min-width:1200px; width:100%;  }
 .cjwt3{ width:1200px; margin:0 auto; padding-top:100px; padding-bottom:80px; }
 .cjwt3 ul li{ float:left; width:370px; height:180px; background:#ededee; border-radius:10px;cursor:pointer; }
 .cjwt3 ul li strong{  clear:both; display:block; padding-left:45px; padding-top:50px; color:#df0012; line-height:40px; font-size:28px; font-weight:bold }
@@ -36,6 +36,7 @@
 .kechengneirongx dl dt{padding-top:5px; padding-bottom:5px; clear:both; display:block; color:#df0012; font-size:16px; line-height:16px;line-height:30px; }
 .kechengneirongx dl dt span{ margin-right:3px; display:inline-block; text-align:center; background:#df0012; color:#fff; width:15px; height:15px; line-height:15px; }
 .kechengneirongx dl dd{padding-top:5px; padding-bottom:5px;line-height:30px; padding-left:15px; padding-right:5px; color:#717071; font-size:16px; line-height:20px; clear:both; display:block;}
+.kechengneirongx dl dd .here{color: blue;text-decoration: underline;}
 .kechengneirongx dl dd p span{ color:#e00012; font-size:16px; }
 .kechengneirongx dl.ls{ border-bottom:0px; }
 .kechengneirongx dl.ncl{ padding-top:30px; padding-bottom:30px }
@@ -88,6 +89,7 @@
 .kcnr strong{ font-weight:bold; clear:both; clear:both;width:100%; font-size:16px; line-height:32px; }
 .kcnr .hei{  color:#231815;}
 .kcnr .red{  color:#e00012;}
+.kcnr .img_container{width: 392px;height: 287px;border: 1px solid red;border-radius: 10px;overflow: hidden; }
 
 /**/
 .kechengneironghb{ background:#fff; padding-top:40px; padding-bottom:140px;width:1200px; margin:0 auto; }
@@ -95,6 +97,7 @@
 .kechengneironghb h1 .sp1{ display:inline-block; border-bottom:1px solid #b3b3b4; width:65px; height:10px; }
 .kechengneironghb h1 .sp2{  padding-left:100px; padding-right:100px;  text-align:center; font-size:21px;  height:22px; font-weight:bold }
 .kechengneironghb h1 .sp3{display:inline-block; border-bottom:1px solid #b3b3b4; width:65px;height:10px; }
+.kechengneironghb .img_container{width: 392px;height: 287px;border: 1px solid red;border-radius: 10px;overflow: hidden; }
 .kechengneironghb strong{font-weight:bold; clear:both; clear:both;width:100%; font-size:16px; line-height:32px; }
 .kechengneironghb .hei{  color:#231815;}
 .kechengneironghb dl{ padding-top:5px; padding-bottom:5px; clear:both; display:block; }
@@ -178,7 +181,7 @@
 .jzxx dl dd .dd2{ width:380px; }
 
 .cwhy{ text-align:center; padding-top:60px; padding-bottom:40px;}
-.cwhy a{ margin-left:20px; margin-right:20px; border:1px solid #de0012; color:#333; font-size:18px; padding:20px 45px; }
+.cwhy a{ margin-left:20px; margin-right:20px; border:2px solid #de0012; color:#333; font-size:18px; padding:20px 45px; }
 .cwhy a.btn{ background:#de0012; color:#fff; }
 
 .xxbaogao{width:1200px; margin:0 auto;}
@@ -192,7 +195,7 @@
 
 .xxbaogaot ul li.on span.sp1{ background:url(/static/img/lywj_03.png) no-repeat; width:43px; height:33px; }
 .xxbaogaot ul li.on span.sp2{ background:url(/static/img/wdpm_03.png) no-repeat; width:43px; height:36px; }
-.xxbaogaot ul li.on span.sp3{ background:url(/static/img/jzdl_24.png) no-repeat; width:43px; height:37px; }
+.xxbaogaot ul li.on span.sp3{ background:url(/static/img/comment.png) no-repeat; width:43px; height:37px; }
 .xxbaogaot ul li strong{ clear:both; display:block; font-weight:bold; color:#717071; font-size:18px; }
 .xxbaogaot ul li.on strong{ color:#de0012;  }
 .xxbaogaoc1{ padding:20px 40px; text-align:center; }
@@ -229,7 +232,7 @@
 .xxbcon table tr.odd td{ background:#eeeeef;    }
 .xxbcon table tr td.td1{ width:170px; text-align:center; }
 .xxbcon table tr td.td2{ text-align:center; }
-.xxbcon table tr.on td{  color:#e00012;   }
+.xxbcon table tr.on td{  color:#231815;   }
 .xxbcon table tr td .fl1{ margin-left:50px; float:left; display:inline-block;  line-height:31px; }
 .xxbcon table tr td .fl2{float:left; display:inline-block;    margin-right: 50px;float: right;}
 .xxbcon table tr td .fl2 a{ display:inline-block; background:url(/static/img/lywj_19.png) no-repeat; width:31px;  height:31px; }
@@ -267,13 +270,13 @@
 .xueyuan ul li .fl3 a{ color:#df0012; font-weight:bold }
 /*学习进度*/
 .xxbconk{ padding-left:35px; padding-right:5px; padding-top:10px; border-radius:10px 10px 0px 0px;}
-.xxbconk table{ border:1px solid #eeeeef; width:100%; border-radius:10px 10px 0px 0px; }
+.xxbconk table{table-layout:fixed;border:1px solid #eeeeef; width:100%; border-radius:10px 10px 0px 0px; }
 .xxbconk table tr th{ color:#fff; font-size:18px; font-weight:bold; background:#e00012; height:55px; line-height:55px; text-align:center }
 .xxbconk table tr th.th1{ width:145px; border-radius:10px 0px 0px 0px;}
 .xxbconk table tr th.th2{ width:260px;}
 .xxbconk table tr th.th3{ width:145px;}
 .xxbconk table tr th.th4{width:265px; border-radius:0px 10px 0px 0px;}
-.xxbconk table tr td{vertical-align:middle; text-align:center;  background:#fff; padding-top:10px; padding-bottom:10px; color:#717071; line-height:31px; font-size:18px; }
+.xxbconk table tr td{padding-left: 4px;padding-right: 4px;word-break : break-all; overflow:hidden;vertical-align:middle; text-align:center;  background:#fff; padding-top:10px; padding-bottom:10px; color:#717071; line-height:31px; font-size:18px; }
 .xxbconk table tr.odd td{ background:#eeeeef;    }
 
 .xxbaogaocxr dl{ padding-left:30px; padding-top:15px; padding-bottom:15px; overflow:hidden }
